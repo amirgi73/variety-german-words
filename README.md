@@ -44,7 +44,7 @@ With Persian translations:
 
 ## Notes
 
-- This plugin was tested with Variety 0.8.3 (python 3.8)
+- This plugin is tested with Variety 0.8.3 (python 3.8)
 - This plugin is in early development.
 
 ## Credits
