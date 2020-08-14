@@ -53,7 +53,3 @@ Variety is developed by Peter Levi  - https://peterlevi.com/variety/
 
 german_words.py is inspired by variety-goodreads-quotes  - https://github.com/dsbmac/variety-goodreads-quotes and variety-vdm-quotes  - https://github.com/LG666/variety-vdm-quotes
 
-
-### License
-
-MIT - Copyright(c) 2020 amirgi73
