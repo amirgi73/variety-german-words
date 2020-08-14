@@ -39,7 +39,7 @@ import os
 
 logger = logging.getLogger("variety")
 
-german_words_file = os.path.expanduser('~/.config/variety/plugins/german_words/words.csv')
+german_words_file = os.path.expanduser('~/.config/variety/plugins/variety-german-words/words.csv')
 
 
 class GermanWordsSource(IQuoteSource):
