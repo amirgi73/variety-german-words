@@ -40,6 +40,7 @@ import os
 logger = logging.getLogger("variety")
 
 german_words_file = os.path.expanduser('~/.config/variety/plugins/variety-german-words/words.csv')
+lang = 'English'  # translation language, possible values English, Persian B-amooz, Persian G-translate
 
 
 class GermanWordsSource(IQuoteSource):
@@ -108,7 +109,7 @@ class GermanWordsSource(IQuoteSource):
             else:
                 source_name = ''
             self.quotes.append({
-                "quote": f"{item.get('German')} : {item.get('English')}\n{item.get('Sample Sentence')}\n",
+                "quote": f"{item.get('German')} : {item.get(lang)}\n{item.get('Plural and Inflected Forms')}\n{item.get('Sample Sentence')}",
                 "author": item.get('Part of Speech'),
                 "sourceName": source_name})
 
@@ -119,6 +120,7 @@ class GermanWordsSource(IQuoteSource):
         return []
 
     def get_for_keyword(self, keyword):
+        # TODO: implement searching by level or part of speech
         return []
 
     def get_random(self):
