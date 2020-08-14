@@ -24,15 +24,16 @@ Needs
 ## Change Translation Language
 Currently we support English and Persian. The default language is set to English. If you want to use Persian instead, use the commands bellow:
 
-to use translations from b-amooz.com:
+- to use translations from b-amooz.com:
 
-    $ cd ~/.config/variety/plugins/variety-german-words
-    $ sed -i '0,/English/s//Persian B-amooz/' german_words.py
-or to use translations from translate.google.com:
+        $ cd ~/.config/variety/plugins/variety-german-words
+        $ sed -i '0,/English/s//Persian B-amooz/' german_words.py
+- or to use translations from translate.google.com:
 
-    $ cd ~/.config/variety/plugins/variety-german-words
-    $ sed -i '0,/English/s//Persian G-translate/' german_words.py  
-    
+        $ cd ~/.config/variety/plugins/variety-german-words
+        $ sed -i '0,/English/s//Persian G-translate/' german_words.py  
+ 
+- Restart variety.
 ## Notes
 
 - This plugin was tested with Variety 0.8.3 (python 3.8)
