@@ -6,10 +6,16 @@ A quotes plugin to show German words with translation and examples. A helpful wa
 
 ## Installation
 
-- Copy the 'german_words.py' file into ~/.config/variety/plugins.
+- Change directory to plugin folder:
+
+`cd ~/.config/variety/plugins`
+
+- Clone the repository:
+
+`git clone https://github.com/amirgi73/variety-german-words.git`
 - Restart variety.
 - Activate the plugin from Variety Preferences > Effects > Quotes > Sources and filtering.
-
+- Activate Change quote every 30 Minutes from Variety Preferences > Effects > Quotes > Regular Change
 ## Requirements
 
 Needs
