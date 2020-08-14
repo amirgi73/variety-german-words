@@ -35,7 +35,7 @@ Currently we support English and Persian. The default language is set to English
  
 - Restart variety.
 ## Screenshots
-![screenshot1](/screenshots/de_english.jpg?raw=true "With English translations")
+![screenshot1](screenshots/de_english.png?raw=true "With English translations")
 
 
 ## Notes
