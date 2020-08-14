@@ -34,6 +34,10 @@ Currently we support English and Persian. The default language is set to English
         $ sed -i '0,/English/s//Persian G-translate/' german_words.py  
  
 - Restart variety.
+## Screenshots
+![screenshot1](/screenshots/de_english.jpg?raw=true "With English translations")
+
+
 ## Notes
 
 - This plugin was tested with Variety 0.8.3 (python 3.8)
